@@ -11,6 +11,7 @@
 }
 
 .post-input {
+    padding: 0 0.5em;
     font-size: 1rem;
     width: 100%;
     border: 1px solid #1a1a1a;
