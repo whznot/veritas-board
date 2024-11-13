@@ -1,0 +1,109 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    /*font-family: "Times New Roman", serif;*/
+    margin-top: 1em;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 50%;
+    background-color: #333;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.post-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.post-form label {
+    margin-bottom: 0.25em;
+    font-size: 0.85rem;
+}
+
+.post-form input,
+.post-form textarea {
+    padding: 0.5em;
+    border: 1px solid #1a1a1a;
+    border-radius: 0.25em;
+    background-color: #222;
+    color: #e0e0e0;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    resize: vertical;
+}
+
+.post-form input:focus,
+.post-form textarea:focus {
+    border: 1px solid #646cff;
+    outline: none;
+}
+
+.post-form input::placeholder,
+.post-form textarea::placeholder {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.post-form button {
+    padding: 0.5em;
+    font-size: 0.9rem;
+    border: 1px solid transparent;
+    border-radius: 0.25em;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.post-form button:hover {
+    background-color: #222;
+    border: 1px solid #646cff;
+}
+
+#postList {
+    width: 50%;
+}
+
+.post {
+    background-color: #333;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.post-name {
+    margin: 0;
+    font-size: 0.85em;
+}
+
+.post-text {
+    margin: 0.75em 0;
+    font-size: 1rem;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+#noPostsMessage {
+    color: #aaa;
+    text-align: center;
+    font-style: italic;
+    margin: 1em 0;
+}
